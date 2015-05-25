@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= appTitle
+    script(type="text/javascript", src="/js/jquery-2.0.3.min.js")
+    link(rel='stylesheet', href='/css/bootstrap-3.0.2/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/bootstrap-3.0.2/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='/css/index.css')
+    script(type="text/javascript", src="/css/bootstrap-3.0.2/js/bootstrap.min.js")
+    script(type="text/javascript", src="/js/blog.js")
+    script(type="text/javascript", src="/js/index-style.js")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  body.index
+    div.logo-image
+      img.image(src="/image/logo.jpg")
+    div.promt1
+      label Join the Revolutionary Fashion Platform
+    div.stay-updated
+      label Stay Updated
+    div.form-container
+      form(action="/subscribe", method="POST")
+          input.form-control(name="email", type="text", placeholder="e-mail adress")
+          button.btn.btn-lg.btn-primary(type="submit") GO

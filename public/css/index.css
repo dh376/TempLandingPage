@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+label {
+  display: table;
+  margin: auto;
+}
+.logo-image {
+  display: table;
+  margin: auto;
+}
+.promt1 {
+  margin-top: 50px;
+}
+.stay-updated {
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+.form-control {
+  display: inline-block;
+  max-width: 300px;
+  margin-right: 5px;
+}
+.form-container {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+button.btn {
+  display: inline-block;
+  width: 63px;
+  height: 35px;
+  padding: 0px;
+  background-image: none;
+  background-color: #f00;
+  border: none;
+}
